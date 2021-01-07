@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>동아리 교류회</title>
+    <style>
+      div{
+        text-align: center;
+      }
+      .header{
+        grid-area: header;
+        border-bottom: 3px solid black;
+      }
+      .body{
+        grid-area: body;
+      }
+      .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 1fr;
+        grid-template-areas:
+          'header header'
+          'body body';
+      }
+      a{
+        color:black;
+        text-decoration: none;
+      }
+      #back{
+        text-align: left;
+        width:50px;
+      }
+      img{
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="..\index.html"><h1>동아리 교류회</h1></a>
+      </div>
+      <div class="body">
+        <div id="back"><a href="..\동아리발표index.html"><img src="..\img\backbutton.png"></a></div>
+        <div class="notice">
+          <br><i>기술 상 문제로 발표 영상 대신 PPT로 대체합니다.</i><br>
+        </div>
+        <div class="content">
+          <img src="../pptpages/과수정1.png">
+          <img src="../pptpages/과수정2.png">
+          <img src="../pptpages/과수정3.png">
+          <img src="../pptpages/과수정4.png">
+          <img src="../pptpages/과수정5.png">
+          <p>성지 고등학교의 전통적이고 유서 깊은 동아리</p>
+          <p>훌륭한 부장이 이끌고 있는 개성이 다양한 팔색조 매력이 있는 동아리</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
