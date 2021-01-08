@@ -3,37 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>동아리 교류회</title>
-    <style>
-      div{
-        text-align: center;
-      }
-      .header{
-        grid-area: header;
-        border-bottom: 3px solid black;
-      }
-      .body{
-        grid-area: body;
-      }
-      .container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 1fr;
-        grid-template-areas:
-          'header header'
-          'body body';
-      }
-      a{
-        color:black;
-        text-decoration: none;
-      }
-      #back{
-        text-align: left;
-        width:50px;
-      }
-      img{
-        width: 50%;
-      }
-    </style>
+    <link rel="stylesheet" href="..\style.css">
   </head>
   <body>
     <div class="container">
@@ -42,8 +12,11 @@
       </div>
       <div class="body">
         <div id="back"><a href="..\동아리발표index.html"><img src="..\img\backbutton.png"></a></div>
-        <div class="notice">
-          <br><i>기술 상 문제로 발표 영상 대신 PPT로 대체합니다.</i><br>
+        <div class="sub">
+          <i>과학 수학의 정석 활동내용-정재원</i>
+        </div>
+        <div class="summary">
+          <p>각자 다양한 성격 다양한 진로가 있어 다양하며 과탐의 4가지를 하나로 모으기 위해 노력했고 앞으로 팀 프로젝트 토론 등 논리적으로 토론할 수 있는 능력, 응집력, 리더쉽을 기를 수 있게 노력하였다.</p>
         </div>
         <div class="content">
           <img src="../pptpages/과수정1.png">
@@ -51,8 +24,6 @@
           <img src="../pptpages/과수정3.png">
           <img src="../pptpages/과수정4.png">
           <img src="../pptpages/과수정5.png">
-          <p>성지 고등학교의 전통적이고 유서 깊은 동아리</p>
-          <p>훌륭한 부장이 이끌고 있는 개성이 다양한 팔색조 매력이 있는 동아리</p>
         </div>
       </div>
     </div>

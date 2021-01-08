@@ -3,40 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>동아리 교류회</title>
-    <style>
-      div{
-        text-align: center;
-      }
-      .header{
-        grid-area: header;
-        border-bottom: 3px solid black;
-      }
-      .body{
-        grid-area: body;
-      }
-      .container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 1fr;
-        grid-template-areas:
-          'header header'
-          'body body';
-      }
-      a{
-        color:black;
-        text-decoration: none;
-      }
-      #back{
-        text-align: left;
-        width: 50px;
-      }
-      img{
-        width: 50%;
-      }
-      .summary{
-        border: 3px solid black;
-      }
-    </style>
+    <link rel="stylesheet" href="..\style.css">
   </head>
   <body>
     <div class="container">
@@ -45,6 +12,9 @@
       </div>
       <div class="body">
         <div id="back"><a href="..\동아리발표index.html"><img src="..\img\backbutton.png"></a></div>
+        <div class="sub">
+          <i>사이언스 월드 연간 활동-김하진, 심수연</i>
+        </div>
         <div class="summary">
           <p>동아리 설립 목적과 사이언스 월드 동아리 학생들의 특징, 동아리 활동 내용과 내용별 활동 소감을
           발표함.</p>

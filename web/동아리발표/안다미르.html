@@ -3,37 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>동아리 교류회</title>
-    <style>
-      div{
-        text-align: center;
-      }
-      .header{
-        grid-area: header;
-        border-bottom: 3px solid black;
-      }
-      .body{
-        grid-area: body;
-      }
-      .container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 1fr;
-        grid-template-areas:
-          'header header'
-          'body body';
-      }
-      a{
-        color:black;
-        text-decoration: none;
-      }
-      #back{
-        text-align: left;
-        width: 50px;
-      }
-      img{
-        width: 50%;
-      }
-    </style>
+    <link rel="stylesheet" href="..\style.css">
   </head>
   <body>
     <div class="container">
@@ -42,8 +12,8 @@
       </div>
       <div class="body">
         <div id="back"><a href="..\동아리발표index.html"><img src="..\img\backbutton.png"></a></div>
-        <div class="notice">
-          <br><i>기술 상 문제로 발표 영상 대신 PPT와 대본으로 대체합니다.</i><br>
+        <div class="sub">
+          <i>안다미르 연간 활동 발표-홍서연</i>
         </div>
         <div class="content">
           <img src="..\pptpages\안다미르1.png">
