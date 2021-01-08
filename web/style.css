@@ -1,0 +1,32 @@
+div{
+  text-align: center;
+}
+.header{
+  grid-area: header;
+  border-bottom: 3px solid black;
+}
+.body{
+  grid-area: body;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas:
+    'header header'
+    'body body';
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+#back{
+  text-align: left;
+  width:50px;
+}
+img{
+  width: 50%;
+}
+.summary{
+  border: 3px solid black;
+}
